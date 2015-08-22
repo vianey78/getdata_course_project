@@ -3,8 +3,7 @@ Getting and Cleaning Data: Course Project
 
 Introduction
 ------------
-This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
-What follows first are my notes on the original data.
+This is the final result of my effort to complete the Getting and Cleaning Data course.
 
 About the raw data
 ------------------
@@ -20,8 +19,8 @@ About the script and the tidy dataset
 I created a script called run_analysis.R which will merge the test and training sets together.
 Prerequisites for this script:
 
-1. the UCI HAR Dataset must be extracted and..
-2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+1. the UCI HAR Dataset must be extracted from a ZIP file.
+2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset" in your working directory.
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
